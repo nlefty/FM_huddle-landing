@@ -1,0 +1,162 @@
+@media (min-width: 770px) { 
+ 	
+
+    .top {
+        background-position: center;
+        background-size: 100%;
+        padding: 50px;
+    }
+
+    .huddle-try-free img {
+        width: 40%;
+    }
+
+    .try-free-btn {
+        width: 15em;
+        height: 60px;
+    }
+
+	.top-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        text-align: left;      
+    }
+    
+
+    .hero, .hero-image {
+        width: 50%;
+    }
+
+    .hero {
+        padding-right: 30px;
+    }
+    
+    .start-free-btn {
+        width: 50%;
+        height: 4.6em;
+        font-size: .8em;
+    }
+
+    main section {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    section {
+        display: flex;  
+        justify-content: flex-end;              
+    }
+
+    section img {
+        width: 70%;
+    }
+   
+    .main-grow, .main-flow, .main-users {        
+        align-items: center;         
+    }
+
+    .main-grow, .main-users {
+        padding-right: 0px;        
+    }
+    
+
+    .grow-content, .user-content {
+        padding-right: 40px;
+        margin-left: 20px;
+    }
+
+    .grow-content, .flow-content, .user-content {
+        text-align: left;        
+    }
+
+    .grow-image, .user-image {
+        order: 1;
+    }
+
+    .build-comm {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5rem;
+    }
+
+    .build-button > .start-free-btn {
+        width: 55%;
+        height: 4em;
+    }
+
+    footer {
+        padding: 50px;
+        font-size: .85em;
+    }
+
+    .foot-logo {
+        width: 40%;
+    }
+
+    .foot-content {
+        display: flex;
+        justify-content: start;
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    .foot-contact-wrapper, nav, .social-copy {
+        width: 25%;
+    }
+    
+    .foot-contact:first-child {
+        padding-right: 90px;
+    }
+
+    .foot-contact-wrapper {
+        width: 50%;        
+    }
+
+    nav li:first-child {
+        padding-top: 0px;
+    }
+
+    .nav-list-1, .social-copy {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .social-copy {
+        display: grid;
+        /* grid-template-columns: 1fr; */
+        text-align: left;
+    }
+
+    .social-copy i {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .social {
+        align-self: flex-start;
+    }
+
+    .copy {
+        align-self: flex-end;
+    }
+
+    .attribution {         
+        text-align: center; 
+        margin-top: 30px;
+    }
+    
+}
+
+
+@media (min-width: 1230px) {
+    
+    .hero h1 {
+        font-size: 2.7em; 
+    } 
+
+    .hero p {
+        font-size: 1.1em;
+    }
+}
