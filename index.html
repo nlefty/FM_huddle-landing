@@ -1,42 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <title>
+      Frontend Mentor | Huddle landing page with alternating feature blocks
+    </title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:200,400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" media="screen" href="style.css">
-  <link rel="stylesheet" media="screen" href="media-queries.css">
-    
-</head>
-<body>
-  <div class="wrapper">
-    <div class="top">
-      <div class="huddle-try-free">        
-        <img src="images/logo.svg" class="logo" alt="Logo">
-        <button class="try-free-btn">Try It Free</button>
-      </div> 
-      <div class="top-content">
-        <div class="hero">
-          <h1>Build The Community Your Fans Will Love</h1>
-          <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.  Create connections with your users as you engage in genuine discussion.</p>
-          <div class="hero-button">
-            <button class="start-free-btn">Get Started For Free</button>      
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" media="screen" href="style.css" />
+    <link rel="stylesheet" media="screen" href="media-queries.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="huddle-try-free">
+          <div class="logo">
+            <img src="images/logo.svg" alt="Logo" />
           </div>
-        </div>      
-        <div class="hero-image">
-          <img src="images/illustration-mockups.svg" alt="Mockups">
+          <div class="cta-btn">
+            <button class="try-free-btn">Try It Free</button>
+          </div>
         </div>
-      </div>     
-    </div>
-  
-       
+        <div class="top-content">
+          <div class="hero">
+            <h1>Build The Community<br>Your Fans Will Love</h1>
+            <p>
+              Huddle re-imagines the way we build communities. You have a voice,
+              but so does your audience. Create connections with your users as
+              you engage in genuine discussion.
+            </p>
+            <div class="hero-button">
+              <button class="start-free-btn">Get Started For Free</button>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="images/illustration-mockups.svg" alt="Mockups" />
+          </div>
+        </div>
+      </header>
+
     <main>
-      <section class="main-grow">
+      <article class="main-grow">
         <div class="grow-image">
           <img src="images/illustration-grow-together.svg" alt="Grow Together">
         </div>
@@ -45,8 +66,8 @@
           <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
       Think of the insightful conversations you miss out on with a feedback form.</p>
         </div>
-      </section>
-      <section class="main-flow">
+      </article>
+      <article class="main-flow">
         <div class="flow-image">
           <img src="images/illustration-flowing-conversation.svg" alt="Grow Together">
         </div>
@@ -55,8 +76,8 @@
           <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
       have just-in-time loading for a more natural flow.</p>
         </div>
-      </section>
-      <section class="main-users">
+      </article>
+      <article class="main-users">
         <div class="user-image">
           <img src="images/illustration-your-users.svg" alt="Grow Together">
         </div>
@@ -65,7 +86,7 @@
           <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
       This means, once signed in to your app, your users can start chatting immediately.</p>
         </div>
-      </section>      
+      </article>      
     </main>
       
     <footer>
@@ -82,30 +103,30 @@
         <div class="foot-contact-wrapper">
           <div class="foot-contact">            
               <i class="fa fa-map-marker"></i>
-              <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+              <div class="foot-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
           </div>
           <div class="foot-contact">            
               <i class="fa fa-phone"></i>
-              <div>+1-543-123-4567</div>
+              <div class="foot-text">+1-543-123-4567</div>
           </div>
           <div class="foot-contact">            
               <i class="fa fa-envelope"></i>
-              <div>example@huddle.com</div>   
+              <div class="foot-text">example@huddle.com</div>   
           </div>
         </div>
 
         <nav class="nav-list-1">
           <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">What We Do</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li class="nav-link"><a href="#">About Us</a></li>
+            <li class="nav-link"><a href="#">What We Do</a></li>
+            <li class="nav-link"><a href="#">FAQ</a></li>
           </ul>
         </nav>
         <nav class="nav-list-2">
           <ul>
-            <li><a href="#">Career</li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li class="nav-link"><a href="#">Career</li>
+            <li class="nav-link"><a href="#">Blog</a></li>
+            <li class="nav-link"><a href="#">Contact Us</a></li>
           </ul>
         </nav>
 
@@ -122,9 +143,9 @@
       </div>
       <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Nik Lefty</a>.
+        Coded by <a href="kitawita.com" target="_blank">Nik Lefty</a>.
       </p>
     </footer>
-  </div>
-</body>
+    </div>
+  </body>
 </html>
